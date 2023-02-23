@@ -1,31 +1,80 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/client" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/client"
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/comments" # Location of package manifests
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"
+  - package-ecosystem: "npm"
+    directory: "/comments"
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/events" # Location of package manifests
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"
+   - package-ecosystem: "npm"
+    directory: "/events"
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/moderation" # Location of package manifests
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"
+  - package-ecosystem: "npm"
+    directory: "/moderation"
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/posts" # Location of package manifests
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"
+  - package-ecosystem: "npm"
+    directory: "/posts"
     schedule:
-      interval: "weekly"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/query" # Location of package manifests
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"
+   - package-ecosystem: "npm"
+    directory: "/query"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    assignees:
+      - "samiwarraich"
+    reviewers:
+      - "samiwarraich"
+    commit-message:
+      prefix: "npm"
+    labels:
+      - "npm"
+      - "dependencies"   
